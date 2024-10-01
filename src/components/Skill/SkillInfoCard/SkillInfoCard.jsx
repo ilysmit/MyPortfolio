@@ -12,6 +12,8 @@ const SkillInfoCard = ({heading , skills}) => {
                 <div className='skill-info'>
                     <p> {item.skill}</p> 
                     <p className='parcentage'>{item.percentage}</p>
+                  
+
                  </div>
 
                  <div className='skill-progress-bg'>

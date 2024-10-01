@@ -5,6 +5,7 @@ function Hero() {
   return (
     <section className="hero-container">
       <div className="hero-content">
+  
         <h2>Building Digital Experience That Inspier</h2>
         <p>
           Passionate Frontend Developer | Transforming Ideas Into Seamless And
