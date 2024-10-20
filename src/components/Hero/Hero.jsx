@@ -19,7 +19,7 @@ function Hero() {
             <img src="./assets/images/React.png" alt="" />
           </div>
           <img
-            src="https://deshanwickramaarachchi.pro/assets/images/img11.png"
+            src="./assets/images/img.png"
             alt="" />
         </div>
         <div>
