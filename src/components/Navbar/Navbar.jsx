@@ -2,6 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import Mobileview from "./Mobileview/Mobileview";
 
+
+
 function Navbar() {
 
 
@@ -19,16 +21,16 @@ function Navbar() {
           <img className="logo" src="" alt="" />
           <ul>
             <li>
-              <a className="menu-item"> Home </a>
+              <a href="#home" className="menu-item"> Home </a>
             </li>
             <li>
-              <a className="menu-item"> Skill </a>
+              <a href="skill" className="menu-item"> Skill </a>
             </li>
             <li>
-              <a className="menu-item"> Work Experience </a>
+              <a href="work" className="menu-item"> Work Experience </a>
             </li>
             <li>
-              <a className="menu-item"> Contact Me </a>
+              <a href="contact" className="menu-item"> Contact Me </a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>

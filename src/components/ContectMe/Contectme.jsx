@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contectme.css";
 import ContatInfoCard from "./ContactInfoCard/ContatInfoCard";
+import Contectform from "./Contectform/Contectform";
 
 const Contectme = () => {
   return (
@@ -10,12 +11,14 @@ const Contectme = () => {
         <div style={{ flex: 1 } }>
           <ContatInfoCard
            iconUrl="https://deshanwickramaarachchi.pro/assets/images/email-icon.svg"
-           text = "smitchavda6879@gmail.com"/>
+           text = "itsmit.work@gmail.com"/>
            <ContatInfoCard
            iconUrl="https://deshanwickramaarachchi.pro/assets/images/github-icon.svg"
            text = "https://github.com/ilysmit"/>
         </div>
-        <div style={{ flex: 1 }}></div>
+        <div style={{ flex: 1 }}>
+          <Contectform/>
+        </div>
       </div>
     </section>
   );

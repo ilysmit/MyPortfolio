@@ -71,3 +71,35 @@ export const WORK_EXPERIENCE = [
     ],
   },
 ];
+export const PROJECTS = [
+  {
+    title: "Starbucks Website Clone",
+    date: "",
+    responsibilities: [
+      "The Starbucks Website Clone project involves creating a replica of the Starbucks homepage using React.js",
+      "The project aims to mimic the look and feel of the Starbucks website, focusing on UI components, responsiveness, and interactivity to create a smooth, user-friendly experience.",
+      "Implement React components for reusability and maintainability.",
+      "Practice CSS styling, including flexbox, grid, and animations for a polished, professional look.",
+    ],
+  },
+  {
+    title: "E-commerce Website with PHP",
+    date: "",
+    responsibilities: [
+      "Develop a complete e-commerce platform where users can shop, add products to a cart, and make purchases.",
+      "Implement an easy-to-navigate user interface for smooth browsing and interaction.",
+      "Use MySQL for database management to store product details, user information, and orders.",
+      "Create a secure environment for transactions, including authentication, form validation, and secure data handling.",
+    ],
+  },
+  {
+    title: "GP Book Store Using React.js",
+    date: "https://gpstore.netlify.app/",
+    responsibilities: [
+      "Create a structured book catalog where users can browse and search for books by genre, author, and title.",
+      "Build an interactive and responsive front end with smooth navigation and an intuitive layout.",
+      "Implement essential e-commerce features like a shopping cart, user authentication, and checkout process.",
+      "Set up a database to store books, categories, authors, user details, and orders for managing the store.",
+    ],
+  },
+];

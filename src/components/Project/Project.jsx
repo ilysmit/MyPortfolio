@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
-import "./Workexperience.css";
-import { WORK_EXPERIENCE } from "../../utils/data";
-import Experiencecard from "./ExperienceCard/Experiencecard";
+import "./project.css";
+import { PROJECTS } from "../../utils/data";
 import Slider from "react-slick";
-const Workexperience = () => {
+import Projectcard from "./Projectcard/Projectcard";
+const Project = () => {
   const sliderRef = useRef();
   const settings = {
     dots: false,
@@ -24,10 +24,10 @@ const Workexperience = () => {
     ],
   };
   return (
-    <section id="work" className="experience-container">
-      <h5>Work Experience</h5>
+    <section className="experience-container">
+      <h5>Projects</h5>
 
-      <div  className="experience-content">
+      <div className="experience-content">
         {/* <div className="arrow-right">
           <span class="material-symbols-outlined">chevron_right</span>
         </div>
@@ -35,8 +35,8 @@ const Workexperience = () => {
           <span class="material-symbols-outlined">chevron_left</span>
         </div> */}
         <Slider ref={sliderRef} {...settings}>
-          {WORK_EXPERIENCE.map((item) => (
-            <Experiencecard key={item.title} details={item} />
+          {PROJECTS.map((item) => (
+            <Projectcard key={item.title} details={item} />
           ))}
         </Slider>
       </div>
@@ -44,4 +44,4 @@ const Workexperience = () => {
   );
 };
 
-export default Workexperience;
+export default Project;

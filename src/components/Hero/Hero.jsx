@@ -3,7 +3,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section className="hero-container">
+    <section id="home" className="hero-container">
       <div className="hero-content">
   
         <h2>Building Digital Experience That Inspier</h2>
