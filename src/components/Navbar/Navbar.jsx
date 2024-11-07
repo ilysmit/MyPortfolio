@@ -24,13 +24,13 @@ function Navbar() {
               <a href="#home" className="menu-item"> Home </a>
             </li>
             <li>
-              <a href="skill" className="menu-item"> Skill </a>
+              <a href="#skill" className="menu-item"> Skill </a>
             </li>
             <li>
-              <a href="work" className="menu-item"> Work Experience </a>
+              <a href="#work" className="menu-item"> Work Experience </a>
             </li>
             <li>
-              <a href="contact" className="menu-item"> Contact Me </a>
+              <a href="#contact" className="menu-item"> Contact Me </a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>

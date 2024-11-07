@@ -12,8 +12,8 @@ function Skill() {
   };
 
   return (
-    <section className="skills-container">
-      <h5 id="skill">Technical Proficiency</h5>
+    <section  id="skill" className="skills-container">
+      <h5>Technical Proficiency</h5>
 
       <div className="skills-content">
         <div className="skills">

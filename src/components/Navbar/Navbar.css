@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .nav-wreppar {
   background: rgba(0, 0, 0, 0.1);
   padding: 0.5rem 0;

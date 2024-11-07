@@ -5,7 +5,7 @@ import Contectform from "./Contectform/Contectform";
 
 const Contectme = () => {
   return (
-    <section className="contect-container">
+    <section id="contact" className="contect-container">
       <h5>Contact Me</h5>
       <div className="contect-contect">
         <div style={{ flex: 1 } }>
